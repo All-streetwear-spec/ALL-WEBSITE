@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tienda - ALL Streetwear</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Iconos -->
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- Bootstrap y estilos -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Fuentes -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <style>
+        :root {
+            --color-tierra: #e8dfd3;
+            --color-acento: #b9a28a;
+            --color-texto: #2c2c2c;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--color-texto);
+        }
+
+        .navbar {
+            background-color: var(--color-tierra) !important;
+        }
+
+        .logo {
+            color: var(--color-acento) !important;
+            font-weight: bold;
+        }
+
+        .btn-tierra {
+            background-color: var(--color-acento);
+            color: white;
+            border-radius: 8px;
+            padding: 8px 16px;
+        }
+
+        .btn-tierra:hover {
+            background-color: #9b856f;
+        }
+
+        footer {
+            background-color: var(--color-tierra);
+            color: var(--color-texto);
+        }
+
+        footer a {
+            color: var(--color-texto);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand logo h1" href="index.html">ALL Streetwear</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false"
+                aria-label="Menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-end" id="main_nav">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="about.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold active" href="shop.html">Tienda</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Categorías -->
+            <div class="col-lg-3">
+                <h2 class="pb-4">Categorías</h2>
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none d-block py-1" href="#">Hombre</a></li>
+                    <li><a class="text-decoration-none d-block py-1" href="#">Mujer</a></li>
+                    <li><a class="text-decoration-none d-block py-1" href="#">Accesorios</a></li>
+                    <li><a class="text-decoration-none d-block py-1" href="#">Novedades</a></li>
+                    <li><a class="text-decoration-none d-block py-1" href="#">Ofertas</a></li>
+                </ul>
+            </div>
+
+            <!-- Productos -->
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-inline shop-top-menu pb-3">
+                            <li class="list-inline-item"><a class="h5 text-dark text-decoration-none"
+                                    href="#">Todos</a></li>
+                            <li class="list-inline-item"><a class="h5 text-dark text-decoration-none"
+                                    href="#">Hombre</a></li>
+                            <li class="list-inline-item"><a class="h5 text-dark text-decoration-none"
+                                    href="#">Mujer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <select class="form-select">
+                            <option>Destacados</option>
+                            <option>De la A a la Z</option>
+                            <option>Más recientes</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Grid de productos -->
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <img class="card-img-top" src="assets/img/shop_01.jpg" alt="Producto 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Camiseta colección</h5>
+                                <p class="mb-2">$60.000</p>
+                                <a href="shop-single.html" class="btn btn-tierra">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <img class="card-img-top" src="assets/img/shop_02.jpg" alt="Producto 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Camiseta Basica</h5>
+                                <p class="mb-2">$50.000</p>
+                                <a href="shop-single.html" class="btn btn-tierra">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Hoodies(Proximamente)</h5>
+                                <p class="mb-2">Por determinar</p>
+                                <a href="shop-single.html" class="btn btn-tierra">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paginación -->
+                <nav>
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 text-center">
+        <p class="mb-1">&copy; 2025 ALL Streetwear</p>
+        <p>Bogotá, Colombia | WhatsApp: <a href="https://wa.me/573232394785" target="_blank">323 2394785</a> | 
+        Instagram: <a href="https://www.instagram.com/all_streetwear_0/" target="_blank">@all_streetwear_0</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
